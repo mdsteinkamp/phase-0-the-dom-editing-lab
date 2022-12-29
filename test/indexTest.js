@@ -8,7 +8,7 @@ describe("within index.html", () => {
     expect(document.querySelector('html').innerHTML).to.include('</body>')
   })
   it("contains an <h1> tag", () => {
-    expect(document.querySelector('body').innerHTML).to.include('<h1>My HTML adventure</h1>')
+    expect(document.querySelector('body').innerHTML).to.include('<h1>My HTML Adventure</h1>')
   })
   it("contains a <p> tag", () => {
     expect(document.querySelector('body').innerHTML).to.include('<p>')
